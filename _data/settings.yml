@@ -16,16 +16,14 @@ author:
 
 #-------------------------------
 # Contact links
-twitter: https://twitter.com/ # Add your Twitter handle
 facebook: https://facebook.com/ # Add your Facebook handle
 dribbble: https://dribbble.com/jinnykim # Add your Dribbble handle
 instagram: https://instagram.com/chatty_pillow # Add your Instagram handle
-pinterest: https://pinterest.com/ # Add your Pinterest handle
 
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: chatty_pillow # add your shortname for Disqus Comment. For example mr-brown
 
 
 #-------------------------------
