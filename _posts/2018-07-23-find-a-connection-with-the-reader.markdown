@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  Find a connection with the reader
-date:   2018-07-24 15:01:35 +0300
+title:  젤라또에 검색 기능 추가하기
+date:   2019-09-04 15:01:35 +0300
 image:  02.jpg
-tags:   Resources
+tags:   Design
 ---
-Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." Noooooo! Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you!
+젤라또는 예쁜 네일 디자인을 찾을 수 있는 서비스입니다. 다자인을 찾는 ‘탐색’이 가장 큰 비중을 차지하는 액션임에도 원하는 디자인을 직접 ‘검색’ 할 수 없어 많은 사용자들이 불편함을 감수하고 있었는데요. 가장 많은 VOC가 있었던 만큼 오랜만의 메이저 업데이트 과제로 ‘검색 기능 추가’를 선정했습니다.
 
 You lived before you met me?! Ow, my spirit! Humans dating robots is sick. __You people wonder why I'm still single?__ *It's 'cause all the fine robot sisters are dating humans!* I guess if you want children beaten, you have to do it yourself.
 
