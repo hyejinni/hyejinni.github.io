@@ -1,0 +1,230 @@
+/*------------------------------------------------*/
+/*BASIC SETUP*/
+/*------------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+p{
+    display: block;
+}
+
+section{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/*------------------------------------------------*/
+/*HEADINGS*/
+/*------------------------------------------------*/
+
+h1{
+    position: relative;
+    margin-top:0;
+    text-align: center;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 400%;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+
+
+/*------------------------------------------------*/
+/*REUSABLE COMPONENTS*/
+/*------------------------------------------------*/
+
+
+
+/*------------------------------------------------*/
+/*HEADER*/
+/*------------------------------------------------*/
+
+
+header{ 
+    background-size: cover;
+    background-position: center;
+}
+
+
+.works-background{
+    position:fixed;
+    left:70px;
+    right: 70px;
+    top: 70px;
+    bottom: 70px;
+    background-color: #D0BFFF;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+
+.main-nav {
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 70px;
+}
+
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding : 4px 0;
+    color: #9a9a9a;
+    text-decoration: none;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #D0BFFF;
+    color: #404040;
+    font-weight: 400;
+}
+
+
+/*------------------------------------------------*/
+/*CATEGORY TITLE*/
+/*------------------------------------------------*/
+
+.header-category-title{
+    font-weight: 700;
+    font-size: 38px;
+    color: #333e4c;
+    margin-top: 60px;
+}
+
+.header-category-des{
+    padding-top: 6px;
+    font-size: 20px;
+    color: #90949a;
+    margin-bottom: 60px;
+}
+
+/*------------------------------------------------*/
+/*RADIO BUTTONS*/
+/*------------------------------------------------*/
+
+
+
+#i1,#i2,#i3,#i4,#i5 {
+    display:none;
+}
+
+
+.pre, .nxt{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    background: #E5DBFF;
+    z-index: 99;
+    cursor: pointer;
+}
+
+
+.pre{
+
+    left:0px;
+}
+
+
+.nxt{
+
+    right: 0px;
+}
+
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four,
+#i5:checked ~ #five{
+    z-index: 9;
+}
+
+
+
+/*------------------------------------------------*/
+/*POSTS*/
+/*------------------------------------------------*/
+.posts{
+     margin: 0 70px;
+}
+
+.posts-item{
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+    padding: 36px 0;
+    list-style: none;
+}
+
+.posts-type{
+    color: #7950F2;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.posts-info{
+    color: #333e4c;
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.009em;
+    position: relative;
+}
+
+.posts-sub{
+    font-size: 18px;
+    color: #90949a;
+    line-height: 1.75;
+    padding-bottom: 24px;
+}
+
+.posts-body{
+    font-size: 16px;
+    font-weight: 400;
+    color: #90949a;
+}
