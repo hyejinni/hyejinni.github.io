@@ -10,10 +10,10 @@
 
 html {
     background-color: #fff;
+    font-family: "Open Sans", "Noto Sans KR", sans-serif;
     color: #555;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 18px;
     text-rendering: optimizeLegibility;
 }
 
@@ -46,6 +46,7 @@ div{
 article{
     max-width:900px;
     margin: 0 auto;
+    margin-bottom: 80px;
 }
 
 .row{
@@ -106,12 +107,12 @@ h1{
 
 .hello-text{
     color: #282828;
-    font-size: 42px;
-    font-weight: 400;
-    line-height: 54px;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 50px;
     text-align: left;
     max-width: 900px;
-    margin: 0 auto;
+    margin: auto;
     padding: 0 40px;
     position: relative;
     top:30%;
@@ -161,13 +162,13 @@ header{
 
 .main-nav li a:link{
     color: #9a9a9a;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .main-nav li a:hover{
     border-bottom: 2px solid #D0BFFF;
     color: #404040;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 
@@ -176,7 +177,7 @@ header{
 /*------------------------------------------------*/
 
 .header-category-title{
-    font-weight: 700;
+    font-weight: 600;
     font-size: 38px;
     color: #333e4c;
     margin-top: 60px;
@@ -237,7 +238,7 @@ header{
 /*POSTS*/
 /*------------------------------------------------*/
 .posts{
-     margin: 0 70px;
+     margin: 0 40px;
 }
 
 .posts-item{
@@ -248,26 +249,27 @@ header{
 
 .posts-type{
     color: #7950F2;
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2px;
 }
 
 .posts-info{
     color: #333e4c;
     display: block;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: -0.009em;
     position: relative;
 }
 
-.posts-sub{
-    font-size: 18px;
+.posts-date{
+    font-size: 15px;
+    font-weight: 300;
     color: #90949a;
     line-height: 1.75;
-    padding-bottom: 24px;
+    padding-top: 10px;
 }
 
 .posts-body{
