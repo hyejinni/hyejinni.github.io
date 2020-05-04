@@ -58,7 +58,7 @@ article{
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
     grid-template-rows: 400px 400px 400px;
-    margin: 0 auto;
+    margin: 0 auto 120px auto;
     max-width: 1200px;
 }
 
@@ -90,7 +90,7 @@ h1{
 /*------------------------------------------------*/
 
 .hero {
-    height: 75vh;
+    height: 60vh;
 }
 
 .hello-text{
@@ -99,7 +99,7 @@ h1{
     font-weight: 400;
     line-height: 54px;
     text-align: left;
-    max-width: 400px;
+    max-width: 900px;
     margin: 0 auto;
     position: relative;
     top:30%;
