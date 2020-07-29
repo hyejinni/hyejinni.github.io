@@ -1,0 +1,99 @@
+---
+title: Day 2
+date: 2019-06-30 00:00:00
+description: Natalie Portman on Late Nite with David Letterman
+featured_image: '/images/demo.jpg'
+---
+DL : Ladies and gentlemen here’s the lovely Natalie Portman!
+(Greetings)
+DL : You look lovely!
+NP : Thank you.
+DL : You look entirely different from the last time I saw you.
+NP : Do I?
+DL : Oh I think you do. Yes, absolutely. Well, last time you were dressed.
+NP : Oh! Dave..
+DL : You know, but this is very nice .
+NP : Oh, I’m gonna cry.
+DL : No, no, it’s very exotic, very sophisticated, very worldly.
+NP : This dress was actually made by someone who’s my age which is pretty exciting. Zac Posen.
+DL : Uh-huh. Well, he’s certainly got your number. But now I’m wondering are you … are you going somewhere after the show or is this just for the show?
+NP : This is just for you.
+DL : Oh god bless you. What a lovely treat. Thank you very much. Well, congratulations on the big movie. What are you feeling now? You’ve probably been to all of the premieres and stuff and going crazy and you like being in the Star Wars movie?
+NP : It’s been really crazy just because I’m back and forth between school finals, you know, I was at the premiere Sunday and had a test at 8:30 Monday morning.
+DL : Yeah. You’re just a kid. You’re going to school. You’re just a kid.
+NP : I’m just a kid.
+DL : Yeah. Well, how many years in school are you ?
+NP : This is my, I just finished my third year in college.
+DL : So you got one more year left. And things are going pretty well for you. What kind of grades do you get?
+NP : Fine.
+DL : Like the GPA
+NP : There’s a lot of, it’s been in the Times a lot actually. There’s a lot of grade inflation going on. So I don’t know how accurate my grades are to my work.
+DL : What is it ?
+NP : No, I mean there was a report out last year that half the grades of my school are A’s.
+DL : Really?
+NP : Yeah.
+DL : So is that true for you? You’ve got A ?
+NP : Yeah. So I’m getting A’s but I don’t know what that says.
+DL : Do you wear the dress to class? Because that might be something.
+DL : But I know we’ve talked about this before. A movie star and also a kid going to college. How do you combine those things? Do the college kids know you’re also an actress, a film star, a big deal? Do they know that?
+NP : I mean, they know but they don’t really care that much. They’re all pretty amazing themselves.
+DL : Really?
+NP : Yeah.
+DL : Well, I would care. If I were going to school with you. I would, I would really care. And, but do you, do you do regular college kid kind of stuff?
+NP : Sure. Um, well there’s a few, you know, strange traditions at school. So, well, for instance a couple nights ago because finals just started at school. A couple nights ago, they had a primal scream which is when everyone runs out naked in the yard. Every night, the night before finals, but I don’t participate or anything. But I’m definitely the perv there with like the camera taking pictures. I should’ve not admitted that. Totally outing myself here.
+DL : I’d say so everybody just runs around naked
+NP : Yeah.
+DL : But I mean in college, you don’t really need an excuse to do that. I mean, that was pretty much my entire four years. We used to go to the class naked.
+NP : Oh, dear.
+DL : What an awful thought that is.
+NP : Yeah it’s more depressing than anything else, I think. Seeing naked people, naked smart people. They’re not the best bodies overall.
+DL : Well, speak for yourself. I take what I can get frankly.
+DL : Now, listen. Let’s say you weren’t an actress and you were attending college. What would you know we had the young woman on who was in marketing and she’s going to go into marketing and delivering products to people. What would you want to do after college? What would be your plans?
+NP : What would be my plans. Well, I’m planning on continuing acting.
+DL : Well, that’s what I said. If you weren’t an actor, you know.
+NP : If I weren’t an actor. Oh lord knows. Maybe I’d be a professional action figure or something.
+DL : I don’t even know what that means exactly.
+NP : I’m just, you know, seeing the other things that I can do in life.. .
+DL : This is you from the movie. Can you tell us about what happens in the movie now? This is Episode two but it’s really like the fifth movie?
+NP : Right. It’s the fifth film but it is the second in the series.
+DL : Uh-huh. Does that make you say chronologically? Does that make sense? Do you understand how that works?
+NP : Yeah. It’s after the first.
+DL : When the first Star Wars movie came out did that happen before this one or after this one?
+NP : It happened after this one in film time and before this one in real life time.
+DL : Right. And this is you and here you are and who are you in the movie?
+NP : I’m Padme Amidala now a senator not Queen anymore.
+DL : Yeah, this is gonna be infected look at that I just gotta do something about that.
+NP : Oh, dear.
+DL : Oh, okay. So this is you.
+NP : Yeah. I think I’m probably giving evidence that this is like a distortion of breastage and then I’ve got arms here that could like graze the earth. They’re so ape-like. I don’t know what’s going on you know
+DL : I got no problems with this. This just seems fine to me. So you have a, you’re turning actually, is it 21? next one?
+NP : 21 and about a month.
+DL : This is remarkable. You have a lovely life. You’re just turning 21 and then look at you. My god. You look, you look just like Audrey Hepburn in this. Look at that. Isn’t that amazing? There’s a stunning looking woman.
+DL: What would you do when you turn 21 the end of like a big deal going on today?
+NP : It’s actually really exciting cuz my mommy and I have the same birthday.
+DL : Oh your mother and you have the same birthday.
+NP : So she’s gonna kill me for saying how old she is. She’s turning 50. The same day I’m turning 21.
+DL : There’s nothing wrong with that.
+NP : Nothing wrong with that. So I suggested to her that we switch birthdays. I get her wasted and I like you know be going through my midlife crisis or whatever and getting the over-the-hill t-shirts and all that. But she does not drink at all. So she’s like I don’t want to drink
+DL : And what will you do? Or does it mean anything to you other than you can drink now? And what else can you do when you’re 21?
+NP : Yeah. I mean it’s basically the big built up thing is that arbitrary booze date when you can, one minute ago you can’t buy booze, and a minute from now you can. so that’s gonna be kind of exciting
+DL : But you’ll be drinking responsibly won’t you when you’re 21.
+NP : Always, always. Responsibly. And I’m excited to taste alcohol, too.
+NP: It’s been a long long patient wait.
+DL : I know you’re not married, right? You’re not married. you’re not
+NP : I’m a single 20 year old.
+DL : Not engaged or anything in and are there.. you have… are you dating ? you must be dating a lot of ..
+NP : No, nope, I’m single. I’m available. I thought the astrophysicist was cute. He can jump through a tennis racquet for me anyday. Imagine Mom. Meet my boyfriend.
+DL : It’s all very exciting and congratulations you just got a lovely thing going for yourself here and then the movie is uh I guess gonna be hugely successful. Are you gonna be in a lot of them now?
+NP : Well this is the second. I’ve got one more to go. Yeah.
+DL : And that’ll be it for a while? And that’s onto other things?
+NP : That’s the rest of my Star Wars career
+DL : Well, god bless you. Nice to see you. Happy birthday. Natalie Portman. Everybody thank you very much.
+
+
+Video
+
+{% include post-components/video.html
+	url = "https://youtu.be/8_CspZxi_tQ"
+	full_width = true
+%}
