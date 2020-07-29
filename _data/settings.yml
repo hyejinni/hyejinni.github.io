@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Hyejin Kim
+  site_title: HJ
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -70,8 +70,8 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Ubuntu+Mono:400,700" rel="stylesheet">'
-  title_font: 'Rubik, sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Ubuntu+Mono:400,700" rel="stylesheet">'
+  title_font: 'Poppins, sans-serif'
   body_font: '"Ubuntu Mono", sans-serif'
   regular_weight: 400
   bold_weight: 700
