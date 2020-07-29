@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Made
+  site_title: Hyejin Kim
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -16,7 +16,7 @@ menu_settings:
 footer_settings:
   logo_image: 
   logo_width: 100
-  tagline: A beautiful, minimal portfolio Jekyll theme
+  tagline: UX/UI Designer
 
 hero_settings:
   background_image: /images/backgrounds/background-hero.svg
