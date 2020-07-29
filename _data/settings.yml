@@ -74,12 +74,12 @@ font_settings:
   title_font: 'Poppins, sans-serif'
   body_font: '"Ubuntu Mono", sans-serif'
   regular_weight: 400
-  bold_weight: 700
+  bold_weight: 600
   site_title:
     small_size: 30
     medium_size: 40
     large_size: 45
-    weight: 700
+    weight: 600
     letter_spacing: -0.02
   menu:
     small_size: 30
@@ -98,7 +98,7 @@ font_settings:
   h2:
     size: 48
     size_small: 36
-    weight: 700
+    weight: 600
     letter_spacing: -1.6
     letter_spacing_small: -1.04
     line_height: 56
@@ -106,7 +106,7 @@ font_settings:
   h3:
     size: 40
     size_small: 30
-    weight: 700
+    weight: 600
     letter_spacing: -1.4
     letter_spacing_small: -0.54
     line_height: 48
@@ -114,7 +114,7 @@ font_settings:
   h4:
     size: 32
     size_small: 28
-    weight: 700
+    weight: 600
     letter_spacing: -1
     letter_spacing_small: -0.6
     line_height: 36
@@ -122,14 +122,14 @@ font_settings:
     small_size: 17
     medium_size: 20
     large_size: 20
-    weight: 700
+    weight: 600
     letter_spacing: 0
     line_height: 1.6
   h6:
     small_size: 17
     medium_size: 20
     large_size: 20
-    weight: 700
+    weight: 600
     letter_spacing: 0
     line_height: 1.6
   subtitle:
