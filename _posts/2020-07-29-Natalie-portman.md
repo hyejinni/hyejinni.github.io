@@ -1,5 +1,5 @@
 ---
-title: Day 2
+title: Day 2 - Natalie Portman on Late Nite with David Letterman
 date: 2019-06-30 00:00:00
 description: Natalie Portman on Late Nite with David Letterman
 featured_image: '/images/demo.jpg'
