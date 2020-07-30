@@ -77,9 +77,9 @@ font_settings:
   bold_weight: 500
   site_title:
     small_size: 30
-    medium_size: 40
-    large_size: 45
-    weight: 500
+    medium_size: 30
+    large_size: 30
+    weight: 600
     letter_spacing: -0.02
   menu:
     small_size: 30
