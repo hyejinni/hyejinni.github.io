@@ -22,7 +22,7 @@ footer_settings:
   tagline: UX/UI Designer
 
 hero_settings:
-  background_image: /images/backgrounds/background-hero.svg
+  background_image: 
 
 post_settings:
   grid_spacing: 10
@@ -182,7 +182,7 @@ font_settings:
 
 advanced_settings:
   ajax_loading: true
-  analytics_code: "UA-174147963-1"
+  analytics_code: ""
   custom_styles: ""
   header_js: ""
   footer_js: ""
