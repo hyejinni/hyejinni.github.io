@@ -25,8 +25,8 @@ post_settings:
   grid_spacing: 10
 
 contact_settings:
-  email_address: ''
-  form_action: 'https://formspree.io/hello@jekyllthemes.io'
+  email_address: 'kimhj8463@gmail.com'
+  form_action: 'https://formspree.io/kimhj8463@gmail.com'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
   send_button_text: 'Get in Touch'
@@ -34,20 +34,20 @@ contact_settings:
 social_settings:
   facebook_url: ''
   twitter_url: ''
-  instagram_url: ''
+  instagram_url: 'https://www.instagram.com/chatty_pillow/'
   snapchat_url: ''
   youtube_url: ''
   google-plus_url: ''
   vimeo_url: ''
   pinterest_url: ''
-  medium_url: ''
+  medium_url: 'https://medium.com/@tangerines'
   quora_url: ''
   amazon_url: ''
   apple_url: ''
   android_url: ''
   tumblr_url: ''
   dribbble_url: ''
-  behance_url: ''
+  behance_url: 'https://www.behance.net/hj_kim'
   deviantart_url: ''
   github_url: ''
   reddit_url: ''
@@ -55,9 +55,9 @@ social_settings:
   etsy_url: ''
   kickstarter_url: ''
   soundcloud_url: ''
-  spotify_url: ''
+  spotify_url: 'https://open.spotify.com/user/3144l3vgbreoyzxltwjjqi36htvu?si=lbtNmXiKS8SDb85aCT7NIg'
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/jenny-hyejin-kim/'
 
 color_settings:
   background_color: '#ffffff'
