@@ -12,6 +12,9 @@ menu_settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
+    - title: 'Archive'
+      url: '/archive/'
+
 
 footer_settings:
   logo_image: 
