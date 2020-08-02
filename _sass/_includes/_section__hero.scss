@@ -35,11 +35,11 @@
 
 	@include mq(tabletp) {
 		padding: 40px 0 180px;
-
+/*
 		.wrap {
 			grid-template-columns: 1fr 1fr;
 		}
-
+*/
 		.title {
 			margin-bottom: 0;
 			max-width: none;
@@ -47,7 +47,7 @@
 
 		.intro {
 			align-self: end;
-			margin-bottom: -80px;
+			margin-bottom: -50px;
 			max-width: 458px;
 		}
 
