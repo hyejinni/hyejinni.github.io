@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Archive
+title: Blog
 description: Made includes a beautiful grid-based blog with pagination.
 featured_image: /images/social.jpg
 ---
@@ -8,15 +8,15 @@ featured_image: /images/social.jpg
 <div class="page-blog">
 	<header class="header--single">
 		<div class="wrap">
-			<h1 class="header__title">A video a day</h1>
-			<p class="header__subtitle subtitle--light">하루에 영상 하나씩 번역하거나 스크립트 작성하기</p>
+			<h1 class="header__title">Blog</h1>
+			<p class="header__subtitle subtitle--light">Find out what I've been up through my latest photo blogging adventures.</p>
 		</div>
 	</header>
 
 	<section class="all-posts">
 		<div class="wrap">
 			<div class="posts__list grid">
-				{% for post in paginator.posts %}
+				{% for post in site.archives reversed %}
 				{% if forloop.first == true %}
 				<article class="post post-new">
 					<div class="grid">
@@ -45,20 +45,5 @@ featured_image: /images/social.jpg
 		</div>
 	</section>
 
-	{% if paginator.total_pages > 1 %}
 
-	<section class="pagination">
-		<div class="wrap">
-			{% if paginator.previous_page %}
-			<a href="{{ paginator.previous_page_path | relative_url }}"
-				class="button--text--accent --left pagination__prev">Newer Posts</a>
-			{% endif %}
-			{% if paginator.next_page %}
-			<a href="{{ paginator.next_page_path | relative_url }}"
-				class="button--text--accent --right pagination__next">Older Posts</a>
-			{% endif %}
-		</div>
-	</section>
-
-	{% endif %}
 </div>

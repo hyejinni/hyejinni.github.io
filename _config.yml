@@ -13,6 +13,14 @@ collections:
   projects:
     output: true
     permalink: /works/:slug
+    scope:
+    path: ""
+    type: "archives"
+    values:
+    layout: "post"
+  
+  
+    
 
 defaults:
   -
