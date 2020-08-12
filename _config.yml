@@ -13,11 +13,9 @@ collections:
   projects:
     output: true
     permalink: /works/:slug
-    scope:
-    path: ""
-    type: "archives"
-    values:
-    layout: "post"
+  archives:
+    output: true
+    permalink: /archive/:slug
   
   
     
@@ -46,6 +44,12 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  -
+    scope:
+      path: ""
+      type: "archives"
+    values:
+      layout: "post"
 
 markdown: kramdown
 highlighter: rouge
