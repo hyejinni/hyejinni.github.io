@@ -9,5 +9,6 @@ featured_image: '/images/archive/alexa.png'
 
 #### What Would a Feminist Alexa Look, or Rather Sound, Like?
 
-https://eyeondesign.aiga.org/what-would-a-feminist-alexa-look-or-rather-sound-like/
+
 <br>
+<a href="https://eyeondesign.aiga.org/what-would-a-feminist-alexa-look-or-rather-sound-like/">Link</a>
