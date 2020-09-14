@@ -9,6 +9,5 @@ featured_image: '/images/archive/batman.webp'
 
 #### The ‘Batman Effect’: How having an alter ego empowers you
 
-https://www.bbc.com/worklife/article/20200817-the-batman-effect-how-having-an-alter-ego-empowers-you?utm_source=pocket&utm_medium=email&utm_campaign=pockethits
-
 <br>
+<a href="https://www.bbc.com/worklife/article/20200817-the-batman-effect-how-having-an-alter-ego-empowers-you?utm_source=pocket&utm_medium=email&utm_campaign=pockethits">Link</a>
