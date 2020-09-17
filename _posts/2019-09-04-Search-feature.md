@@ -1,8 +1,8 @@
 ---
-title: 젤라또에 검색 기능 추가하기
+title: 검색 기능 추가하기
 date: 2019-09-04 00:00:00
 description: 예쁜 디자인을 더 쉽게 찾기 위한 여정
-featured_image: '/images/projects/01_search/10.png'
+featured_image: '/images/projects/01_search/00.png'
 ---
 
 #### Background
