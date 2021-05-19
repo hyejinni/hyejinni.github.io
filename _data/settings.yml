@@ -19,7 +19,7 @@ menu_settings:
 footer_settings:
   logo_image: 
   logo_width: 100
-  tagline: UX/UI Designer
+  tagline: Product Designer
 
 hero_settings:
   background_image: 
@@ -68,7 +68,7 @@ color_settings:
   text_dark_color: '#202224'
   text_medium_color: '#6C7A89'
   text_light_color: '#AEB3BB'
-  accent_color: '#4C60E6'
+  accent_color: '#CDDC39'
   border_color: '#ECEDEF'
   error_color: '#D64541'
 
