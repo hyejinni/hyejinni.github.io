@@ -74,8 +74,8 @@ color_settings:
 
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Ubuntu+Mono:400,700" rel="stylesheet">'
-  title_font: 'Helvetica, Poppins, sans-serif'
-  body_font: '"Ubuntu Mono", sans-serif'
+  title_font: 'Poppins, Helvetica, sans-serif'
+  body_font: '"Poppins","Ubuntu Mono", sans-serif'
   regular_weight: 400
   bold_weight: 500
   site_title:
