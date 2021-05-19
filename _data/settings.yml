@@ -52,7 +52,7 @@ social_settings:
   dribbble_url: ''
   behance_url: 'https://www.behance.net/hj_kim'
   deviantart_url: ''
-  # github_url: 'https://github.com/hyejinni'
+  github_url: 'https://github.com/hyejinni'
   reddit_url: ''
   flickr_url: ''
   etsy_url: ''
@@ -68,7 +68,7 @@ color_settings:
   text_dark_color: '#202224'
   text_medium_color: '#6C7A89'
   text_light_color: '#AEB3BB'
-  accent_color: '#8BC34A'
+  accent_color: '#202224'
   border_color: '#ECEDEF'
   error_color: '#D64541'
 
