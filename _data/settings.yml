@@ -172,7 +172,7 @@ font_settings:
   blockquote:
     small_size: 22
     medium_size: 30
-    large_size: 38
+    large_size: 34
     weight: 500
     letter_spacing: -0.02
     line_height: 1.6
