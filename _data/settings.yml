@@ -180,8 +180,6 @@ font_settings:
     weight: 500
     letter_spacing: 0.4
 
-facebook_app_id: 3020762324819560
-
 advanced_settings:
   ajax_loading: true
   analytics_code: ""
