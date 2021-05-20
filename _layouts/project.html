@@ -25,6 +25,8 @@ layout: default
 			<article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
 				{{ page.content }}
 			</article>
+			<div class="fb-comments" data-href="https://hyejinni.github.io" data-width="100%" data-numposts="5">
+			</div>
 			<div class="post__more grid">
 				{% if page.previous.url %}
 				<a class="prev-post subtitle" href="{{ page.previous.url | relative_url }}">{{page.previous.title}}</a>
