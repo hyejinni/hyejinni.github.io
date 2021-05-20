@@ -72,15 +72,11 @@
 
 
 <body class="loading{% if site.data.settings.advanced_settings.ajax_loading == true %} ajax-loading{% endif %}"
-	data-site-url="https://hyejinni.github.io" data-page-url="index.html">
+	data-site-url="https://hyejinni.github.io" data-page-url="post.html">
 	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	var js, fjs = d.getElementsByTagName(s)[0];
-	if (d.getElementById(id)) return;
-	js = d.createElement(s); js.id = id;
-	js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.8";
-	fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v10.0&appId=3020762324819560&autoLogAppEvents=1" nonce="yn0ROGjt"></script>
+
 
 
 	{% include header.html %}
