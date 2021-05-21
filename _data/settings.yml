@@ -12,8 +12,9 @@ menu_settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
-    - title: 'Archive'
-      url: '/archive/'
+# 나중에 아카이브 추가하고 싶으면 이부분 다시 살리면 됨
+    # - title: 'Archive'
+    #   url: '/archive/'
 
 
 footer_settings:
