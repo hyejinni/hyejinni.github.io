@@ -21,5 +21,7 @@ gallery_images:
 
 #### How it works
 ##### Discover
-
-원더러스트는 함께 여행할 동행을 찾는 <b>여행 커뮤니티 서비스</b>입니다. 서로에게 즐거운 여행을 위해 여행 목적이 잘 맞으면서도 믿을만한 동행을 찾을 수 있도록 도와줍니다.
+##### Live
+##### Chat
+##### Profile
+##### Write a post
