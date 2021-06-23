@@ -124,8 +124,8 @@ font_settings:
     line_height: 36
   h5:
     small_size: 17
-    medium_size: 20
-    large_size: 20
+    medium_size: 24
+    large_size: 28
     weight: 600
     letter_spacing: 0
     line_height: 1.6
@@ -180,6 +180,8 @@ font_settings:
   buttons:
     weight: 500
     letter_spacing: 0.4
+  figcaption:
+    size: 12
 
 advanced_settings:
   ajax_loading: true

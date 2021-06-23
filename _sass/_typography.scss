@@ -229,6 +229,10 @@ time {
 
 code {
   font-family: $body-font;
+  background-color: #ebeff2;
+  border-radius: 3px;
+  padding: .2em .4em;
+  color: $accent-color;
 }
 
 ::selection {
