@@ -159,7 +159,8 @@ ol {
 
 blockquote {
   margin-top: 16px;
-  border-left: 2px solid $text-dark-color;
+  border-left: 0.25rem solid #d8e0e7;
+  color: #90949a;
   padding: 10px 0 10px 32px;
 
   p {
@@ -231,8 +232,8 @@ code {
   font-family: $body-font;
   background-color: #ebeff2;
   border-radius: 3px;
-  padding: .2em .4em;
-  color: $accent-color;
+  padding: .1em .3em;
+  color: var(--accent);
 }
 
 ::selection {

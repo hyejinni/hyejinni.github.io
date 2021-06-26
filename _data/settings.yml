@@ -149,9 +149,9 @@ font_settings:
     size: 18
     size_small: 17
     weight: 400
-    letter_spacing: 0.04
+    letter_spacing: -0.009em
     letter_spacing_small: 0
-    line_height: 28
+    line_height: 32
   p_small:
     size: 16
     size_small: 15
@@ -171,12 +171,12 @@ font_settings:
     letter_spacing: -0.04
     line_height: 12
   blockquote:
-    small_size: 22
-    medium_size: 24
-    large_size: 28
-    weight: 500
-    letter_spacing: -0.02
-    line_height: 1.6
+      small_size: 14
+      medium_size: 16
+      large_size: 18
+      weight: 500
+      letter_spacing: -0.02
+      line_height: 1.4
   buttons:
     weight: 500
     letter_spacing: 0.4
