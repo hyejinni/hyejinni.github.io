@@ -16,6 +16,9 @@ collections:
   archives:
     output: true
     permalink: /archive/:slug
+  resume:
+    output: true
+    permalink: /resume/:slug
     
 
 defaults:
@@ -46,6 +49,12 @@ defaults:
     scope:
       path: ""
       type: "archives"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "resume"
     values:
       layout: "post"
 
