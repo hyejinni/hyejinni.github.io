@@ -182,12 +182,15 @@ blockquote {
 
 a {
   text-decoration: none;
+  // border-bottom: 1px solid var(--accent);
+  // padding-bottom: 0.1em;
+  // margin-bottom: 2em;
   color: $text-dark-color;
   font-weight: $bold-weight;
   @include transition(all 120ms ease-in-out);
 
   &:hover {
-    color: $accent-color;
+    color: var(--accent);
   }
 }
 
