@@ -14,7 +14,7 @@ gallery_images:
 * **Areas of Focus**: Product Strategy, Visual Design, Copywriting, User Research
 
 #### Overview
-
+원더러스트는 함께 여행할 동행을 찾는 여행 커뮤니티 서비스입니다. 서로에게 즐거운 여행을 위해 여행 스타일이 잘 맞으면서도 믿을 수 있는 동행을 찾을 수 있도록 도와줍니다.
 
 #### The Problem
 혼자 여행하는 ‘혼행족’이 늘고 있고, 이들 중 42%가 동행을 구해본 경험이 있습니다. 대부분 여행 카페 등의 커뮤니티를 통해 동행을 구하는데, 믿을만한 동행을 찾기 어렵고, 구하는 과정 자체도 번거롭다는 문제를 겪고 있습니다.
