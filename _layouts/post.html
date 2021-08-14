@@ -22,13 +22,6 @@ layout: default
 				{{ page.content }}
 			</article>
 			
-			<div 
-			class="fb-comments" 
-			data-href="{{ site.url | append: page.url }}"
-			data-width="100%" 
-			data-numposts="5">
-		    	</div> 
-			
 			<div class="post__more grid">
 				{% if page.previous.url %}
 				<a class="prev-post subtitle" href="{{ page.previous.url | relative_url }}">{{page.previous.title}}</a>
@@ -37,6 +30,13 @@ layout: default
 				<a class="next-post subtitle" href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
 				{% endif %}
 			</div>
+
+			<div 
+			class="fb-comments" 
+			data-href="{{ site.url | append: page.url }}"
+			data-width="100%" 
+			data-numposts="5">
+		    	</div> 
 
 		</div>
 		
