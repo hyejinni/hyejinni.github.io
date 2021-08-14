@@ -81,7 +81,8 @@ paginate_path: "/blog/page-:num/"
 
 comments:
   provider : "facebook"
-  facebook:
+  
+facebook:
     appid : 3020762324819560
     num_posts : 5 (default)
     colorscheme : "light" (default), "dark"
