@@ -163,7 +163,7 @@
             text-align: center;
             color: $text-light-color;
           }
-          
+
           p {
             display: inline;
             max-width: 100%;
@@ -188,8 +188,10 @@
       }
     }
 
-    ul, ol {
-      ul, ol {
+    ul,
+    ol {
+      ul,
+      ol {
         max-width: 100%;
         padding-left: 25px;
       }
@@ -343,7 +345,8 @@
     display: block;
     width: 20px;
     height: 12px;
-    background: url($baseurl + "/images/icons/arrow-left-gray.svg") center center no-repeat;
+    background: url($baseurl + "/images/icons/arrow-left-gray.svg") center
+      center no-repeat;
     position: absolute;
     top: calc(50% - 6px);
   }
@@ -360,4 +363,14 @@
   @include mq(tabletp) {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+.callout {
+  background-color: #f0f0f0;
+  //   border-left: 5px solid var(--accent);
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  line-height: 1.5;
+  color: $text-dark-color;
 }

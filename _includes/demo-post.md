@@ -97,3 +97,6 @@ We've packed this theme with powerful features to show off your work.
 Why not put them to use on your new website?
 
 <a href="https://jekyllthemes.io/theme/made-portfolio-jekyll-theme" class="button--fill">Get This Theme</a>
+
+
+{% include callout.html content="This is callout" %}
