@@ -1,9 +1,9 @@
 ---
 title: idus
-subtitle: 배송지 관리 개선하기
+subtitle: 배송지 관리 기능 개선
 date: 2023-08-09 00:00:00
-description: 오늘의 헤드라인은 <b>AI 뉴스 추천 서비스</b>이며 개인화된 맞춤 추천을 제공합니다. 모두에게 똑같이 보이던 뉴스가 아닌 나만의 뉴스 리스트를 볼 수 있습니다.
-featured_image: addressbook.png
+description: 배송지 관리 기능을 도입해 고객과 작가님의 고질적인 VOC였던 배송지 관련 불편사항을 해결하고, 고객에게 매끄러운 주문 경험을 제공한 프로젝트입니다.
+featured_image: addressbook.jpg
 accent_color: '#333333'
 gallery_images:
   - addressbook.png
