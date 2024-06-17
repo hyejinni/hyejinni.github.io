@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+{% if page.accent_color %}{% capture accent_color %}{{ page.accent_color }}{% endcapture %}{% endif %}
+
+<div class="page-project" style="--accent: {{ accent_color }}">
+
+	<header class="post__header header--single">
+
+		<div class="wrap">
+			<h1 class="post__title">{{ page.title }}</h1>
+			<h2 class="post__subtitle subtitle--light">{{ page.subtitle }}</h2>
+		</div>
+
+		<!-- Gallery Image Container -->
+		<div id="gallery-image-container" style="display: none;">
+			<img src="{{ '/images/projects/' | relative_url}}{{ page.featured_image }}" class="post__featured-image">
+		</div>
+	</header>
+
+	<section class="post-full">
+
+		<div class="wrap">
+
+			<!-- Password Protection Form -->
+			{% if page.password %}
+			<script>
+				function checkPassword() {
+					const password = "{{ page.password }}";
+					const input = document.getElementById("password-input").value;
+					if (input === password) {
+						document.getElementById("protected-content").style.display = "block";
+						document.getElementById("password-form").style.display = "none";
+						document.getElementById("gallery-image-container").style.display = "block";
+					} else {
+						alert("Incorrect password. Please try again.");
+					}
+				}
+			</script>
+			<div id="password-form" class="password-form">
+				<h2>This post is password protected.</h2>
+				<input type="password" id="password-input" class="password-input" placeholder="Enter password">
+				<button class="password-submit" onclick="checkPassword()">Submit</button>
+			</div>
+			<div id="protected-content" style="display: none;">
+			{% else %}
+			<div id="protected-content">
+			<!-- No password set, show gallery image -->
+			<div id="gallery-image-container" style="display: block;">
+				<img src="{{ '/images/projects/' | relative_url}}{{ page.featured_image }}" class="post__featured-image">
+			</div>
+			{% endif %}
+
+				<article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
+					{{ page.content }}
+				</article>
+				 
+				<div class="post__more grid">
+					{% if page.previous.url %}
+					<a class="prev-post subtitle" href="{{ page.previous.url | relative_url }}">{{page.previous.title}}</a>
+					{% endif %}
+					{% if page.next.url %}
+					<a class="next-post subtitle" href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+					{% endif %}
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+<!--
+	{% include section__about.html divider=true %}
+-->
+</div>
