@@ -134,3 +134,14 @@ $break-desktop: 1420px;
     box-shadow: $top $left $blur $color;
   }
 }
+
+@mixin mq($breakpoint) {
+  @if $breakpoint == tabletp {
+    @media (min-width: 768px) { @content; }
+  } @else if $breakpoint == desktopp {
+    @media (min-width: 1024px) { @content; }
+  }
+}
+
+@mixin mq-mobile {
+  @media (max-width: 767px) { @content; }

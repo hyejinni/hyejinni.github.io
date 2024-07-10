@@ -21,12 +21,29 @@
   display: grid;
   grid-gap: 30px;
 
+  @include mq-mobile {
+    display: block; // Use block layout on mobile
+  }
+
   &__2-col {
     @extend .grid;
     grid-template-columns: 1fr; // Default to 1 column
 
     @include mq(tabletp) {
-      grid-template-columns: repeat(2, minmax(200px, 1fr)); // 2 columns with min and max widths
+      grid-template-columns: repeat(
+        2,
+        minmax(200px, 1fr)
+      ); // 2 columns on tablet and up
+    }
+
+    @include mq(desktopp) {
+      grid-template-columns: repeat(
+        2,
+        minmax(300px, 1fr)
+      ); // Adjust for larger screens if needed
+    
+      @include mq-mobile {
+      grid-template-columns: none; // Override grid template columns on mobile
     }
   }
 
