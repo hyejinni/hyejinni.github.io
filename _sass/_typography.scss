@@ -82,6 +82,8 @@ h5,
   font-weight: $h5-weight;
   line-height: $h5-lineheight;
   letter-spacing: $h5-spacing;
+  max-width: 720px;
+  margin: 0 auto;
 
   @include mq(tabletp) {
     font-size: $h5-medium;
@@ -95,6 +97,8 @@ h6,
   font-weight: $h6-weight;
   line-height: $h6-lineheight;
   letter-spacing: $h6-spacing;
+  max-width: 720px;
+  margin: 0 auto;
 
   @include mq(tabletp) {
     font-size: $h6-medium;
@@ -235,7 +239,7 @@ code {
   font-family: $body-font;
   background-color: #ebeff2;
   border-radius: 3px;
-  padding: .1em .3em;
+  padding: 0.1em 0.3em;
   color: var(--accent);
 }
 
@@ -248,6 +252,6 @@ code {
   color: $background-color;
 }
 
-iframe{
+iframe {
   background-color: white;
 }

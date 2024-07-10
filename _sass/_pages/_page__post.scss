@@ -19,8 +19,9 @@
 
   .post__featured-image {
     width: 100%;
-    max-width: 900px;
+    max-width: 1080px;
     margin: auto;
+    border-radius: 12px;
   }
 
   .post__content.highlight-first p:first-child {
@@ -29,17 +30,19 @@
   }
 
   .post__content {
-    max-width: 900px;
+    max-width: 1080px;
     margin: 0 auto 80px auto;
 
     p {
-      margin-bottom: 16px;
+      margin: 0 auto 16px auto;
+      max-width: 720px;
     }
 
     ul,
     ol {
-      margin-bottom: 24px;
+      margin: 0 auto 24px auto;
       padding-left: 16px;
+      max-width: 720px;
     }
 
     li {
@@ -48,17 +51,19 @@
 
     p img {
       width: calc(100vw - 60px);
-      max-width: 900px;
+      max-width: 1080px;
       margin: 40px 0;
     }
 
     h2 {
-      margin: 80px 0 16px;
+      margin: 80px auto 16px auto;
+      max-width: 720px;
     }
 
     h3,
     h4 {
-      margin: 56px 0 16px;
+      margin: 56px auto 16px auto;
+      max-width: 720px;
     }
 
     .table-wrap {
@@ -181,7 +186,7 @@
     blockquote {
       // margin: 40px 0;
       width: calc(100vw - 60px);
-      max-width: 900px;
+      max-width: 720px;
 
       p {
         margin: 0;
@@ -192,8 +197,9 @@
     ol {
       ul,
       ol {
-        max-width: 100%;
+        max-width: 720px;
         padding-left: 25px;
+        margin: 0 auto;
       }
     }
 
@@ -226,16 +232,16 @@
 
     .gallery.full-width {
       width: calc(100vw - 60px);
-      max-width: 900px;
+      max-width: 720px;
 
       img {
-        max-width: 900px;
+        max-width: 720px;
       }
     }
 
     .video-wrap.full-width {
       width: calc(100vw - 60px);
-      max-width: 900px;
+      max-width: 720px;
     }
 
     .image-wrap,
@@ -284,15 +290,16 @@
       margin-bottom: 120px;
 
       p img {
-        margin: 72px 0;
+        margin: 72px -90px 0;
+        border-radius: 12px;
       }
 
       h3 {
-        margin: 80px 0 12px;
+        margin: 80px auto 12px auto;
       }
 
       h4 {
-        margin: 80px 0 24px;
+        margin: 80px auto 24px auto;
       }
 
       blockquote {
@@ -369,8 +376,9 @@
   background-color: #f0f0f0;
   //   border-left: 5px solid var(--accent);
   padding: 16px;
-  margin-bottom: 12px;
+  margin: 0 auto 12px auto;
   border-radius: 8px;
   line-height: 1.5;
   color: $text-dark-color;
+  max-width: 720px;
 }

@@ -30,7 +30,7 @@
 
   .project__images {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
     .owl-stage-outer {
       overflow: visible;
@@ -160,14 +160,14 @@
   }
 
   .project__content {
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     border-bottom: 2px solid $text-dark-color;
     grid-gap: 0;
   }
 
   .project__subtitle,
   .project__description {
-    max-width: 456px;
+    max-width: 100%;
   }
 
   .project__subtitle {
@@ -206,9 +206,9 @@
     }
 
     .project__content {
-      grid-template-columns: 1fr 1fr;
+      // grid-template-columns: 1fr 1fr;
       grid-gap: 30px;
-      padding-bottom: 50px;
+      padding-bottom: 20px;
     }
   }
 }

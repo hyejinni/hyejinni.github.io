@@ -6,24 +6,28 @@
 
 .page,
 .page__content {
-	width: 100%;
+  width: 100%;
 }
 
 .wrap {
-	position: relative;
-	margin: 0 auto;
+  position: relative;
+  margin: 0 auto;
   padding: 0 30px;
   width: 100%;
-  max-width: 900px;
+  max-width: 1080px;
 }
 
 .grid {
-	display: grid;
-	grid-gap: 30px;
+  display: grid;
+  grid-gap: 30px;
 
-	&__2-col {
+  &__2-col {
     @extend .grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr; // Default to 1 column
+
+    @include mq(tabletp) {
+      grid-template-columns: repeat(2, minmax(200px, 1fr)); // 2 columns with min and max widths
+    }
   }
 
   &__3-col {

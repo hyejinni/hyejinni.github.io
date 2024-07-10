@@ -7,8 +7,8 @@ featured_image: addressbook.jpg
 accent_color: "#EF7014"
 gallery_images:
   - addressbook.jpg
-layout: protected
-password: "hyejin"
+# layout: protected
+# password: "hyejin"
 
 ---
 
