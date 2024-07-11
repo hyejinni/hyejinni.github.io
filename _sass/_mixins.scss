@@ -142,6 +142,3 @@ $break-desktop: 1420px;
     @media (min-width: 1024px) { @content; }
   }
 }
-
-@mixin mq-mobile {
-  @media (max-width: 767px) { @content; }

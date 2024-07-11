@@ -21,10 +21,6 @@
   display: grid;
   grid-gap: 30px;
 
-  @include mq-mobile {
-    display: block; // Use block layout on mobile
-  }
-
   &__2-col {
     @extend .grid;
     grid-template-columns: 1fr; // Default to 1 column
@@ -41,10 +37,6 @@
         2,
         minmax(300px, 1fr)
       ); // Adjust for larger screens if needed
-    
-      @include mq-mobile {
-      grid-template-columns: none; // Override grid template columns on mobile
-    }
   }
 
   &__3-col {
@@ -59,4 +51,5 @@
 
 .locked {
   overflow: hidden;
+}
 }
