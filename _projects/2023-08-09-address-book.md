@@ -2,7 +2,7 @@
 title: idus | address book
 subtitle: 배송지 관리 기능 개선
 date: 2023-08-09 00:00:00
-description: 고질적인 VOC였던 배송지 관련 불편사항을 해결하고 <br>고객의 매끄러운 주문 경험에 기여한 프로젝트예요.
+description: 고질적인 VOC였던 불편 사항을 해결해 <br>고객의 매끄러운 주문 경험에 기여한 프로젝트예요.
 featured_image: addressbook.jpg
 accent_color: "#EF7014"
 gallery_images:
