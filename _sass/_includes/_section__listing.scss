@@ -5,7 +5,7 @@
 // - - - - - - - - - - - - - - - - - -
 
 .listing {
-  margin-bottom: 60px;
+  margin-bottom: 120px;
   overflow: hidden;
 }
 
@@ -19,7 +19,7 @@
   @include mq(tabletp) {
     // box-sizing: content-box; 
     // width: 100%;
-    grid-gap: 20px;
+    grid-gap: 40px;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -209,7 +209,7 @@
 
   @include mq(tabletp) {
     &:not(:last-child) {
-      margin-bottom: 120px;
+      margin-bottom: 60px;
     }
 
     .owl-dots {
@@ -229,12 +229,6 @@
       grid-template-columns: 1fr;
       grid-gap: 30px;
       padding-bottom: 20px;
-    }
-  }
-  @include mq(tabletp) {
-    .project__preview{
-      grid-gap: 30px;
-      grid-template-columns: 1fr 1fr;
     }
   }
 }
