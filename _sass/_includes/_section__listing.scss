@@ -5,15 +5,8 @@
 // - - - - - - - - - - - - - - - - - -
 
 .listing {
-  margin-bottom: 120px;
+  margin-bottom: 60px;
   overflow: hidden;
-  // grid-template-columns: 1fr 1fr;
-  // grid-gap: 80px;
-  
-  // @include mq(tabletp) {
-  //   grid-gap: 0px;
-  //   grid-template-columns: 1fr 1fr;
-  // }
 }
 
 .preview__listing {
