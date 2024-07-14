@@ -383,3 +383,22 @@
   color: $text-dark-color;
   max-width: 720px;
 }
+
+.badge-area {
+  max-width: 720px;
+  margin: 16px auto 0px auto;
+}
+
+.badge {
+  background: rgba(0, 0, 0, 0.60);
+  display: inline-flex;
+  padding: 4px 6px;
+  border-radius: 2px;
+  color: var(--white, #FFF);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 2px;
+}
