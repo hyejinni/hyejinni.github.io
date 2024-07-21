@@ -80,6 +80,8 @@ paginate: 7
 paginate_path: "/blog/page-:num/"
 
 analytics:
-  provider: "google"
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id: "G-3XFM2GDF2V"
+    tracking_id          : "G-3XFM2GDF2V"
+    anonymize_ip         : # true, false (default)

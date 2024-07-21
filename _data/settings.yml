@@ -188,7 +188,7 @@ font_settings:
 
 advanced_settings:
   ajax_loading: true
-  analytics_code: "G-3XFM2GDF2V"
+  analytics_code: ""
   custom_styles: ""
   header_js: ""
   footer_js: ""
