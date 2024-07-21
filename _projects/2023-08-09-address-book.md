@@ -68,7 +68,6 @@ gallery_images:
 
 ![](/images/projects/10_addressbook/01.jpg)
 
-(직원들도 한 마음 한 뜻으로 배송지 관리 개선을 바랐어요.)
 
 #### Voice of Customer
 
