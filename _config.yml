@@ -78,3 +78,8 @@ plugins:
 
 paginate: 7
 paginate_path: "/blog/page-:num/"
+
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "G-3XFM2GDF2V"
