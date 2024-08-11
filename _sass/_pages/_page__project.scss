@@ -21,6 +21,17 @@
       border-left-color:#d8e0e7;
     }
 
+    callout {
+      background-color: #f0f0f0;
+      //   border-left: 5px solid var(--accent);
+      padding: 16px;
+      margin: 0 auto 12px auto;
+      border-radius: 8px;
+      line-height: 1.5;
+      color: $text-dark-color;
+      max-width: 720px;
+    }
+
     table:not(.rouge-table) {
       border: 2px solid var(--accent);
 

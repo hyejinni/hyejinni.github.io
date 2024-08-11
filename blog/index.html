@@ -22,7 +22,7 @@ featured_image: /images/social.jpg
 					<div class="grid">
 						<a href="{{ post.url | relative_url }}">
 							<div class="post__image{% if paginator.page == 1 %} post__image--new{% endif %}"
-								style="background-image: url({{ post.featured_image | relative_url }})">
+								style="background-image: url({{ postfeatured_image | relative_url }})">
 							</div>
 						</a>
 

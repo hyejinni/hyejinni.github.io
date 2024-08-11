@@ -16,9 +16,9 @@ collections:
   archives:
     output: true
     permalink: /archive/:slug
-  resume:
+  about:
     output: true
-    permalink: /resume/:slug
+    permalink: /about/:slug
     
 
 defaults:

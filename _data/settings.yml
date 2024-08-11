@@ -12,8 +12,11 @@ menu_settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
-    - title: 'Resume'
-      url: 'https://github.com/hyejinni/hyejinni.github.io/raw/ca2b7dc50d08fbdb7c558506386b8bc1fea4a7b1/CV_HyejinKim.pdf'
+    - title: 'About'
+      url: '/about/'
+#Resume 바로 다운로드      
+    # - title: 'Resume'
+    #   url: 'https://github.com/hyejinni/hyejinni.github.io/raw/ca2b7dc50d08fbdb7c558506386b8bc1fea4a7b1/CV_HyejinKim.pdf'
 # 나중에 아카이브 추가하고 싶으면 이부분 다시 살리면 됨
     # - title: 'Archive'
     #   url: '/archive/'
