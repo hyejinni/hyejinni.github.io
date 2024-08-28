@@ -1,6 +1,6 @@
 ---
 title: 배송지 관리 기능 개선
-subtitle: 배송지 관리 기능 개선
+subtitle: 해묵은 VoC와 작별하기
 date: 2023-08-09 00:00:00
 description: 고질적인 VoC였던 불편 사항을 해결해 <br>고객의 매끄러운 주문 경험에 기여한 프로젝트예요.
 featured_image: addressbook.jpg
