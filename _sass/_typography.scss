@@ -162,10 +162,11 @@ ol {
 }
 
 blockquote {
-  margin-top: 16px;
-  border-left: 0.25rem solid #d8e0e7;
-  color: #90949a;
-  padding: 10px 0 10px 32px;
+  margin: 16px auto 0px auto;
+  border-left: 0.25rem solid #666;
+  color: #444;
+  padding: 10px 0px 2px 24px;
+  max-width: 720px;
 
   p {
     font-family: $title-font;

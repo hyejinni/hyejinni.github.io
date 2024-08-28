@@ -34,7 +34,7 @@ post_settings:
   grid_spacing: 10
 
 contact_settings:
-  email_address: 'kimhj8463@gmail.com'
+  email_address: 'mangoroulette@gmail.com'
   form_action: 'https://formspree.io/xjvalypj'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
@@ -177,9 +177,9 @@ font_settings:
     letter_spacing: -0.04
     line_height: 12
   blockquote:
-      small_size: 14
-      medium_size: 16
-      large_size: 18
+      small_size: 16
+      medium_size: 18
+      large_size: 20
       weight: 500
       letter_spacing: -0.02
       line_height: 1.4
