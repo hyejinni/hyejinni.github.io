@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 {% if page.accent_color %}{% capture accent_color %}{{ page.accent_color }}{% endcapture %}{% endif %}
 
 <div class="page-project" style="--accent: {{ accent_color }}">
@@ -25,7 +26,11 @@ layout: default
 			<article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
 				{{ page.content }}
 			</article>
-			 
+			<aside class="toc">
+				{% include toc.html html=content %}
+			</aside>
+										
+
 			<div class="post__more grid">
 				{% if page.previous.url %}
 				<a class="prev-post subtitle" href="{{ page.previous.url | relative_url }}">{{page.previous.title}}</a>
@@ -41,3 +46,53 @@ layout: default
 	{% include section__about.html divider=true %}
 -->
 </div>
+
+<script>
+	function getTOCNodes(master) {
+	  var nodes = Array.prototype.slice.call(master.getElementsByTagName("*"), 0);
+	  var tocNodes = nodes.filter(function(elem) {
+		  return elem.tagName == "A";
+	  });
+	  return tocNodes;
+	}
+	function getHeaderNodes(master) {
+	  var nodes = Array.prototype.slice.call(master.getElementsByTagName("*"), 0);
+	  var headerNodes = nodes.filter(function(elem) {
+		  return elem.tagName == "H1" || elem.tagName == "H2" || elem.tagName == "H3" || elem.tagName == "H4" || elem.tagName == "H5" || elem.tagName == "H6";
+	  });
+	  return headerNodes;
+	}
+  
+	var title = document.getElementsByClassName("post-title")[0];
+	var titleY = window.pageYOffset + title.getBoundingClientRect().top;
+	
+	var article = document.getElementsByClassName("post-article")[0];
+	var articleY = window.pageYOffset + article.getBoundingClientRect().top;
+  
+	var toc = document.getElementsByClassName("toc")[0];
+  
+	var headerNodes = getHeaderNodes(article);
+	var tocNodes = getTOCNodes(toc);
+  
+	var before = undefined;
+  
+	document.addEventListener('DOMContentLoaded', function() {
+    var toc = document.querySelector('.toc');
+
+    function toggleTOCVisibility() {
+        if (window.scrollY > 200) {
+            toc.style.display = 'block'; // Show TOC after 200px scroll
+        } else {
+            toc.style.display = 'none'; // Hide TOC before 200px scroll
+        }
+    }
+
+    // Initial check in case the page is loaded with a scroll position already greater than 200px
+    toggleTOCVisibility();
+
+    // Add the scroll event listener
+    window.addEventListener('scroll', toggleTOCVisibility);
+});
+
+
+  </script>

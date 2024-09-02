@@ -236,3 +236,45 @@ textarea {
 .password-submit:hover {
   background-color: #333333;
 }
+
+
+
+/* Floating TOC Styles */
+.toc {
+  display: block;
+  position: fixed;
+  color: #333;
+  top: 50%; /* Start at the vertical center */
+  transform: translateY(-50%); /* Move it up by half its height */
+  right: 30px; /* Adjust based on your layout */
+  width: 220px; /* Adjust based on your layout */
+  max-height: 80vh; /* Ensure it doesn't overflow the viewport */
+  overflow-y: auto;
+  padding: 15px;
+  background-color: #fff;
+  font-size: small;
+}
+
+.toc ul {
+    list-style-type: none;
+    margin-bottom: 0.1rem;
+    padding-left: 0rem;
+    }
+.toc li {
+    padding-left: 0.5rem;
+    list-style-type: none;
+    }
+
+
+.toc a {
+  display: block;
+  padding: 5px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+
+.toc a.toc-active {
+  font-weight: bold;
+  color: var(--accent);
+}
