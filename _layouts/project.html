@@ -27,7 +27,10 @@ layout: default
 				{{ page.content }}
 			</article>
 			<aside class="toc">
-				{% include toc.html html=content %}
+					{% include toc.html html=content h_max=5 %}
+					<ul>
+						<li><a href="#top">Move to Top ↑</a></li> 
+					</ul>
 			</aside>
 										
 
