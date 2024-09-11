@@ -119,8 +119,10 @@ gallery_images:
 
 아래 이미지에서 동작을 확인할 수 있어요.
 
-![](/images/projects/10_addressbook/04.gif)
-
+<video autoplay muted loop>
+  <source src="{{ "/images/projects/10_addressbook/04.mp4" | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 추가로 키보드 상단 툴바를 추가해 필드간 이동이 쉽도록 했고, 배송지명은 칩을 활용해 필드를 빠르게 채울 수 있게 하는 등 주소 추가 경험이 전반적으로 매끄러울 수 있도록 신경썼습니다.
 <!-- 최초 주문시 주문자 정보와 배송지 정보가 N% 일치 data  -->
